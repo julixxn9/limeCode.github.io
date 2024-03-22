@@ -1,0 +1,471 @@
+:root {
+    --green: #84CC16;
+    --greyblack: #1B1715;
+    --greyblack2: #120F0E;
+    --aqua: #AFAEC3;
+}
+/* box-sizing: bordex box */
+/* shift+alt +flechas,lo duplico */
+/* @ */
+/* row-gap como si fuera un margin*/
+
+* {
+
+    padding: 0%;
+    margin: 0%;
+    font-family: Poppins;
+    color: white;
+}
+
+span {
+    color: #84CC16;
+}
+
+body {
+    background-color: #000000;
+}
+
+.header-space {
+    display: flex;
+    gap: 20px;
+}
+
+.header-space a {
+    text-decoration: none;
+}
+
+header button {
+    color: black;
+    background-color: #84CC16;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-weight: 800;
+    height: 40px;
+    width: 130px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+header i {
+    background-color: #84CC16;
+    color: black;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 120px 20px 120px;
+    margin: 10px;
+}
+
+
+/* Fond-size, le da tamaño al texto */
+.first-section-princial {
+    padding: 100px 100px 20px 90px;
+    display: flex;
+    gap: 65px;
+}
+
+.first-section-princial img {
+    border-radius: 10px;
+    width: 500px;
+    height: 445px;
+}
+
+.first-section-princial p {
+    width: 450px;
+    font-size: 18px;
+}
+
+.first-section-princial h2 {
+    font-weight: 700;
+    font-size: 60px;
+    width: 650px;
+}
+
+.first-section-princial button {
+    background-color: #84CC16;
+    padding: 10px;
+    color: black;
+    font-weight: 800;
+    width: 180px;
+    height: 50px;
+    border-radius: 7px;
+    border: none;
+}
+
+.div-space {
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+    padding-bottom: 50px;
+}
+
+.section-medium-one {
+    padding: 20px 70px 20px 90px;
+    background-color: #1B1715;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-medium-one i {
+    background-color: #1B1715;
+    font-size: 18px;
+}
+
+.section-medium-one a {
+    background-color: #1B1715;
+    display: flex;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.section-medium-one div {
+    background-color: #1B1715;
+    display: flex;
+
+}
+
+.section-medium-one section {
+    display: flex;
+}
+
+.section-medium-one nav {
+    display: flex;
+
+}
+
+.second-section-principal {
+    padding: 100px 100px 20px 120px;
+}
+
+.first-section_second-principal {
+    display: flex;
+    justify-content: center;
+}
+
+.first-section_second-principal p {
+    display: flex;
+    color: #84CC16;
+    justify-content: center;
+    padding: 10px;
+}
+
+.first-section_second-principal h2 {
+    width: 350px;
+    text-align: center;
+}
+
+.second-section_second-principal {
+    display: flex;
+    text-align: center;
+    padding-top: 80px;
+    gap: 20px;
+}
+
+.second-section_second-principal i {
+
+    color: #84CC16;
+    font-size: 30px
+}
+
+.second-section_second-principal div {
+    border-radius: 10px;
+    padding: 25px;
+    background-color: #1B1715;
+}
+
+.second-section_second-principal h3 {
+    padding: 10px;
+    background-color: #1B1715;
+}
+
+.second-section_second-principal p {
+    background-color: #1B1715;
+}
+
+.third-section_second-principal {
+    padding-top: 200px;
+    display: flex;
+    gap: 20px;
+}
+
+.third-section_second-principal .section-2 {
+    display: flex;
+    gap: 10px;
+}
+
+.third-section_second-principal nav {
+    padding-top: 35px;
+    padding-bottom: 40px;
+}
+
+.third-section_second-principal button {
+    background-color: #84CC16;
+    border-radius: 3px;
+    border-style: none;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: #120F0E;
+    font-weight: 600;
+}
+
+.third-section_second-principal section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.third-section_second-principal div {
+    padding-top: 5px;
+    display: flex;
+    gap: 10px;
+}
+
+.third-section_second-principal img {
+    width: 550px;
+    height: 448px;
+    border-radius: 10px;
+}
+
+.third-section_second-principal .section-2 p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.third-section_second-principal h1 {
+    padding-top: 5px;
+    font-size: 40px;
+    font-weight: 800;
+    width: 600px;
+}
+
+.third-section_second-principal i {
+    color: #84CC16;
+    font-size: 20px;
+}
+
+.third-section_second-principal .section-1 {
+    padding-top: 10px;
+}
+
+.third-section-principal {
+    padding: 100px 100px 20px 120px;
+    background-color: #1B1715;
+}
+
+.first-section_third-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.first-section_third-principal h2{
+    width: 400px;
+    font-size: 27px;
+    text-align: center;
+}
+.first-section_third-principal span{
+    font-weight: 700;
+}
+.second-section_third-principal{
+    background-color: #1B1715;
+}
+.second-section_third-principal section{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    row-gap: 10px;
+}
+.second-section_third-principal p{
+    color: black;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.second-section_third-principal .p-tittle{
+    font-size: 12px;
+    font-weight: 600;
+}
+.second-section_third-principal span {
+    color: #000000;
+    font-size: 10px;
+}
+.second-section_third-principal div{
+    border-radius: 10px;
+    background-color: white;
+    width: 180px ;
+    height: 100px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.thrid-section_third-principal{
+    padding: 100px 100px 20px 120px;
+}
+.thrid-section_third-principal .div-one {
+    font-weight: 600;
+}
+.thrid-section_third-principal .div-two div{
+   display: flex;
+   justify-content: space-between;
+}
+.thrid-section_third-principal .div-two button{
+    background-color: #84CC16;
+    color: #000000;
+    height: 45px ;
+    width: 200px;
+    border: none;
+    border-radius: 7px;
+}
+.thrid-section_third-principal .div-two button p{
+    font-size: 15px;
+    font-weight:600;
+    color: #000000;
+}
+.thrid-section_third-principal p{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+footer {
+    
+    background-color: #1B1715;
+}
+
+.footer-section-one {
+    background-color: #1B1715;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 120px 20px 120px;
+    gap: 20px;
+}
+
+.footer-section-one div {
+    background-color: #1B1715;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footer-section-one h1 {
+    background-color: #1B1715;
+}
+
+.footer-section-one p {
+    background-color: #1B1715;
+}
+
+.footer-section-two {
+    padding: 20px 100px 20px 100px;
+    background-color: #1B1715;
+    display: flex;
+}
+
+.footer-section-two div {
+    display: flex;
+    gap: 610PX;
+    background-color: #1B1715;
+}
+
+.footer-section-two section {
+    background-color: #1B1715;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-section-two h2 {
+    width: 375px;
+    font-size: 15px;
+    display: flex;
+    justify-content: end;
+}
+
+.footer-section-two a {
+    background-color: #1B1715;
+    text-decoration: none;
+    display: flex;
+}
+
+.footer-section-two i {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.footer-section-two h2 {
+    background-color: #1B1715;
+    font-size: 19px;
+}
+
+.footer-section-two button {
+    margin-top: 20px;
+    padding: 12px;
+    width: 150px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #84CC16;
+    color: #120F0E;
+    font-weight: 700;
+}
+
+.footer-section-two input {
+    background-color: white;
+    padding: 12px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 13px;
+    width: 200px;
+}
+
+.footer-section-two form {
+    background-color: #1B1715;
+}
+
+.footer-section-three span {
+    color: #000000;
+    font-weight: 700;
+}
+
+.footer-section-three {
+    padding: 20px 100px 20px 100px;
+    background-color: #1B1715;
+}
+
+.footer-section-three div {
+    background-color: #84CC16;
+    padding: 40px;
+    display: flex;
+    border-radius: 10px;
+    gap: 500px;
+}
+
+.footer-section-three p {
+    background-color: #84CC16;
+    color: #000000;
+}
+
+.footer-section-three span {
+    background-color: #84CC16;
+}
+
+.footer-section-three nav {
+    background-color: #84CC16;
+    display: flex;
+    gap: 10px;
+}
+
+.footer-section-three i {
+    color: #000;
+}
